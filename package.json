@@ -1,7 +1,7 @@
 {
   "name": "vrt",
   "version": "1.0.0",
-  "description": "",
+  "description": "Visual Regression Testing Tool",
   "main": "index.js",
   "scripts": {
     "init": "node init",
@@ -9,8 +9,25 @@
     "test": "node index",
     "reports": "node reports"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaca/vrt.git"
+  },
+  "keywords": [
+    "visual",
+    "regression",
+    "test",
+    "testing",
+    "tool"
+  ],
+  "author": {
+    "name": "Ante Laca",
+    "web": "https://github.com/alaca"
+  },
+  "bugs": {
+    "url": "https://github.com/alaca/vrt/issues"
+  },
+  "homepage": "https://github.com/alaca/vrt#readme",
   "license": "ISC",
   "dependencies": {
     "pixelmatch": "^5.3.0",
