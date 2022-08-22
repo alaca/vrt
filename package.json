@@ -1,5 +1,5 @@
 {
-  "name": "vrt",
+  "name": "vrt-tool",
   "version": "1.0.0",
   "description": "Visual Regression Testing Tool",
   "main": "index.js",
