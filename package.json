@@ -1,0 +1,20 @@
+{
+  "name": "vrt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "node init",
+    "setup": "node setup",
+    "test": "node index",
+    "reports": "node reports"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^6.0.0",
+    "puppeteer": "^16.2.0"
+  }
+}
