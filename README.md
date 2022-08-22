@@ -1,1 +1,1 @@
-# vrt
+# Visual Regression Testing Tool
