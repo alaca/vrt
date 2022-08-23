@@ -70,20 +70,13 @@
 <script>
     document
         .querySelectorAll('li.tab_link')
-        .forEach( link  => {
+        .forEach(link => {
             link.addEventListener('click', e => {
-                document.querySelectorAll('.tab_content').forEach(tab => {
-                    tab.style.display = 'none';
-                });
-                document.querySelectorAll('.tab_link').forEach(tab => {
+                document.querySelectorAll('.tab_link, .tab_content').forEach(tab => {
                     tab.classList.remove('active');
                 });
-
                 e.currentTarget.classList.add('active');
-
-                const nextTab = document.getElementById(e.currentTarget.dataset.content);
-                nextTab.style.display = 'block';
-                nextTab.classList.add('active');
+                document.getElementById(e.currentTarget.dataset.content).classList.add('active');
             });
         });
 </script>
