@@ -1,13 +1,10 @@
 {
   "name": "vrt-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Visual Regression Testing Tool",
   "main": "index.js",
-  "scripts": {
-    "init": "node init",
-    "setup": "node setup",
-    "test": "node index",
-    "reports": "node reports"
+  "bin": {
+    "vrt-tool": "node bin/vrt-tool"
   },
   "repository": {
     "type": "git",
@@ -30,6 +27,7 @@
   "homepage": "https://github.com/alaca/vrt#readme",
   "license": "ISC",
   "dependencies": {
+    "commander": "^9.4.0",
     "pixelmatch": "^5.3.0",
     "pngjs": "^6.0.0",
     "puppeteer": "^16.2.0"
