@@ -1,10 +1,10 @@
 {
   "name": "vrt-tool",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "Visual Regression Testing Tool",
-  "main": "index.js",
+  "main": "./bin/vrt-tool.js",
   "bin": {
-    "vrt-tool": "node bin/vrt-tool"
+    "vrt-tool": "./bin/vrt-tool.js"
   },
   "repository": {
     "type": "git",
