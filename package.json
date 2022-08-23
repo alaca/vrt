@@ -1,6 +1,6 @@
 {
   "name": "vrt-tool",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Visual Regression Testing Tool",
   "main": "./bin/vrt-tool.js",
   "bin": {
